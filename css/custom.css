@@ -1,0 +1,283 @@
+/*Massive*/
+.navbar-collapse.collapse.in {display: block!important;}
+
+/* LAYOUT */
+
+html {
+ overflow-y: scroll
+}
+
+Figure {
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.card-body p {
+  font-size: 1.5em;
+}
+
+.btn btn-sm btn-outline-secondary {
+margin-top: auto;
+}
+
+main {
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.main-column {
+  flex: 2;
+}
+
+.article {
+  background: white;
+  color: #666;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-basis: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  min-width: 300px;
+}
+.article-image {
+  background: #eee;
+  display: block;
+  padding-top: 60%;
+  position: relative;
+  width: 100%;
+}
+
+.article-image img {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.article-image.is-3by2 {
+  padding-top: 66.6666%;
+}
+
+.article-image.is-16by9 {
+  padding-top: 56.25%;
+}
+
+.article-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.article-title {
+  color: #333;
+  flex-shrink: 0;
+  font-size: 2.4em;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .5em;
+}
+
+h2 {
+      font-family: 'Open Sans', sans-serif;
+}
+
+
+.article-content {
+  flex: 1;
+  margin-top: 5px;
+}
+
+.article-info {
+  display: flex;
+  font-size: 0.85em;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.caption {
+  font-size: 14px;
+  color: grey;
+  font-style: italic;
+}
+
+/* BLOCK QUOTE ---------------*/
+
+/* center the blockquote in the page */
+
+.block {
+  float: left;
+}
+
+/* Blockquote main style */
+.blockquote {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    padding: 10px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin: 0 auto;
+    display: inline;
+    display: block;
+    margin: 20px;
+}
+
+/* Blockquote header */
+.blockquote h1 {
+    min-width: 180px;
+    position: relative;
+    color: #000;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+    position: relative;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+    .blockquote h1 {
+        font-size: 18px;
+   }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.jumbotron {
+  padding: .5rem;
+  background-image: url("../img/sky3.jpg");
+  background-size: cover;
+  border-radius: 0;
+ 	box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+.jumbotron h1 {
+  font-size: 1em;
+  font-weight: bolder;
+  color: #0f0f0f;
+}
+
+.jumbotron p {
+  color: #0f0f0f;
+}
+
+.itemview {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  border-style:solid;
+	border-color: #d1d1d1;
+	border-width: 1px;
+  padding: 0.1em 5px;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #212529;
+  text-align: left;
+  border-radius: 15px;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.navbar {
+  background: rgb(90,102,156);
+
+ 	box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+ 	transition: 1s;
+}
+
+.nav-link {
+  float: right;
+  margin-right: 10px;
+}
+
+.subhead {
+	font-size: .8em;
+}
+
+
+.h2-headline {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+
+	font-size: 24px;
+	color: #222;
+}
+
+.h2 {
+	text-align: center;
+}
+
+.p-Heros {
+    margin-bottom: 15px;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 1.2em;
+    text-align: center
+    }
+
+#bio {
+	max-width: 50%;
+	text-align: center;
+}
+
+.H-Shadow {
+  text-shadow: 0 0 2px #000, 0 0 5px #0000FF;
+  transition: 1s;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Title-Shadow {
+	font-family: 'Montserrat', sans-serif;
+	font-size:28px;
+}
+
+.H-Shadow p {
+  text-shadow: 0 0 2px #000, 0 0 5px #0000FF;
+    transition: 1s;
+}
+
+.carousel-caption {
+    top: 115px;
+    bottom: auto;
+    transition: 1s;
+}
